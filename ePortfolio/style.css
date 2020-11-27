@@ -1,0 +1,122 @@
+* Style sheet created by Oulayvane Houangvan */
+
+/* style for body */
+body {
+    background-color: white;
+}
+
+/* style to create a fluid image */
+img {
+    max-width: 100%;
+}
+
+/* style for container */
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* style for header */
+header {
+    margin-top: 0.2em;
+    background-color: transparent;
+    border-radius: 0em;
+    text-align: center;
+}
+/* until here*/
+
+/* Navbar container for homepage */
+.navbar {
+  overflow: hidden;
+  background-color: #01506e;
+  font-family: Candera Header;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: lightsteelblue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* until here */
+
+
+
+/* style for main */
+main {
+    display: block;
+    font-family: "Candara Header";
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 4em;
+    border-radius: 1px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #01506e;
+}
+
+/* style for footer */
+footer {
+    font-size: .70em;
+    text-align: right;
+    margin-top: 1em;
+}
+
